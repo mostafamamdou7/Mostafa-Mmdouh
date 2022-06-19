@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="149.842">
+<testcase classname="User could search for any item" name="user can search for any item by item's name" time="147.381">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[When user press on search field.............................................passed
+And user search with Item name"InstaBug"....................................passed
+And user press on search button.............................................passed
+Then user could find relative result........................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at org.example.pages.P01_SearchPage.results(P01_SearchPage.java:16)
+	at org.example.stepDefinitions.SD01_SearchFunctionality.find_results(SD01_SearchFunctionality.java:29)
+	at ✽.user could find relative result(file:///E:/New%20folder/E-commerce-App-Automation-Testing-main/InstaBug-Task/TestAutomation_InstaBugTask/src/main/resources/features/SC01_search.feature:11)
+]]></failure>
+</testcase>
+</testsuite>
